@@ -3,7 +3,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "Face_recognition_based_attendance_system-master/wsgi.py",
+      "src": "face_recognition_project/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.10" }
     },
@@ -22,7 +22,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "Face_recognition_based_attendance_system-master/wsgi.py"
+      "dest": "face_recognition_project/wsgi.py"
     }
   ]
 }
